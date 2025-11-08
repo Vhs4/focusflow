@@ -88,10 +88,10 @@ export function getGreeting(): string {
 export function getMotivationalMessage(level: string): string {
   const messages: Record<string, string> = {
     Iniciante: "Cada jornada começa com um único passo. Continue focado!",
-    Focado: "Você está no caminho certo! Mantenha o ritmo.",
-    Disciplinado: "Sua disciplina está impressionante! Continue assim.",
-    "Mestre do Fluxo": "Você dominou a arte do foco. Inspire outros!",
-    "Zen Master": "Você alcançou o equilíbrio perfeito. Namastê.",
+    Focado: "Seu filho está no caminho certo! Mantenha o ritmo.",
+    Disciplinado: "A disciplina do seu filho está impressionante! Continue assim.",
+    "Mestre do Fluxo": "Seu filho dominou a arte do foco. Inspire outros!",
+    "Zen Master": "Seu filho alcançou o equilíbrio perfeito. Namastê.",
   }
 
   return messages[level] || messages["Iniciante"]
