@@ -131,8 +131,8 @@ export default function DashboardPage() {
               icon={Target}
               trend={{ value: 12, isPositive: true }}
             />
-            <StatsCard title="Minutos" value={stats.totalMinutes} icon={Clock} trend={{ value: 8, isPositive: true }} />
-            <StatsCard title="Taxa" value={`${stats.completionRate}%`} icon={TrendingUp} />
+            <StatsCard title="Minutos de foco" value={stats.totalMinutes} icon={Clock} trend={{ value: 8, isPositive: true }} />
+            <StatsCard title="Taxa de evolução mensal" value={`${stats.completionRate}%`} icon={TrendingUp} />
             <StatsCard title="Sequência de avanços diários" value={`${stats.streak}d`} icon={Sparkles} />
           </div>
 
