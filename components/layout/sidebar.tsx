@@ -74,8 +74,7 @@ export function Sidebar() {
             </div>
           </div>
 
-          {/* 🔥 Destaque do Quiz */}
-          <Link
+          {/* <Link
             href="/quiz"
             onClick={() => setIsOpen(false)}
             className="m-4 flex items-center gap-3 rounded-lg border-2 border-amber-300 bg-amber-50 p-3 shadow-sm hover:shadow-md transition-all hover:bg-amber-100 animate-pulse-slow"
@@ -89,7 +88,7 @@ export function Sidebar() {
               </p>
               <p className="text-xs text-amber-700">Toque para iniciar agora 🎯</p>
             </div>
-          </Link>
+          </Link> */}
 
           {/* Navegação padrão */}
           <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
